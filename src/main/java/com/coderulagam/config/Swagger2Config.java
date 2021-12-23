@@ -24,7 +24,7 @@ public class Swagger2Config {
 				.build()
 				.apiInfo(new ApiInfo("movies api", "movie management api description", 
 						"1.0", "http://coderulagam.com/termsofuse", 
-						new Contact("name", "url", "info@coderulagam.com"), 
+						new Contact("name", "http://coderulagam.com/termsofuse", "info@coderulagam.com"), 
 						"opensource", "http://coderulagam.com/license", 
 						Collections.emptyList()));
 
